@@ -34,6 +34,8 @@ var coords = {
     const map = new google.maps.Map(document.getElementById("map"), propiedades);
   
     const marcadores = getMarkers();
+      
+    console.log(marcadores);
   
     for (marcador of marcadores) {
         markers = new google.maps.Marker({

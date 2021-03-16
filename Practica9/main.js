@@ -30,7 +30,7 @@ var coords = {
     return markers;
   }
   
-  var iniciaMapa = () => {
+  function iniciaMapa = () => {
     const map = new google.maps.Map(document.getElementById("map"), propiedades);
   
     const marcadores = getMarkers();

@@ -275,7 +275,7 @@
           },
           zoom: 14,
           mapTypeControlOptions: {
-            mapTypesId: [
+            mapTypeIds: [
               "roadmap",
               "satellite",
               "hybrid",
@@ -289,7 +289,7 @@
 
         var map = new google.maps.Map(mapa, propiedades);
 
-        map.mapTypes.set("style_map", styleMapType);
+        map.mapTypes.set("style_map", styledMapType);
         map.setMapTypeId("style_map");
       }
     </script>
